@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shalini Bansal — Mechanical Engineer</title>
+  <meta name="description" content="Portfolio of Shalini Bansal — mechanical engineer specializing in CNC test development, 5-axis machining, and CAD design at Haas Automation.">
+  <meta name="theme-color" content="#1e40af">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- Three.js import map (must come before any module that imports 'three') -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.1/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.1/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ Navigation ============ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand">SHALINI BANSAL<span class="dot">.</span></a>
+      <div class="nav-links">
+        <a href="#about" data-mobile-hide>About</a>
+        <a href="#experience" data-mobile-hide>Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ Hero ============ -->
+  <header id="top" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="hero-meta">OXNARD, CA &middot; HAAS AUTOMATION</div>
+        <h1>Mechanical engineer<br>building &amp; <span class="accent">validating</span> CNC machines.</h1>
+        <p class="tagline">
+          Four years designing test parts, machining them on 5-axis CNC equipment, and writing
+          the automation that keeps the next generation of Haas machines honest.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">
+            View projects
+            <svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 5l6 5-6 5"/>
+            </svg>
+          </a>
+          <a class="btn" href="assets/ShaliniBansal_Resume.pdf" download>
+            Download resume
+            <svg class="icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 3v10m0 0l-4-4m4 4l4-4M4 17h12"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <figure class="hero-photo" data-caption="REV 1.0">
+        <img src="assets/photo-placeholder.svg" alt="Shalini Bansal monogram placeholder" width="220" height="220">
+      </figure>
+    </div>
+  </header>
+
+  <!-- ============ About ============ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-body">
+          <p>
+            I'm a mechanical engineer at <strong>Haas Automation</strong> in Oxnard, where I
+            develop CNC test parts end-to-end &mdash; from GD&amp;T-driven CAD in Fusion 360,
+            through 5-axis machining and inspection, to the automated regression scripts that
+            validate every new machine feature against engineering requirements.
+          </p>
+          <p class="muted">
+            My background spans aerospace FEA on aircraft-engine blisks, research on a steerable
+            robotic catheter for cardiovascular surgery at UCR, and four years of multidisciplinary
+            team design on a human-powered recumbent racer. I'm currently completing an M.S.
+            in Computer Science to bring more software fluency into the machine-test loop.
+          </p>
+        </div>
+        <aside class="about-side">
+          <dl>
+            <dt>Role</dt>
+            <dd>Machine Test Engineer&nbsp;2</dd>
+            <dt>Company</dt>
+            <dd>Haas Automation Inc.</dd>
+            <dt>Location</dt>
+            <dd>Oxnard, California</dd>
+            <dt>Focus</dt>
+            <dd>
+              <div>CNC test development</div>
+              <div>5-axis machining</div>
+              <div>Regression automation</div>
+            </dd>
+            <dt>Education</dt>
+            <dd>
+              <div>M.S. Computer Science <span class="muted">(in progress)</span></div>
+              <div>M.S. Mechanical Engineering</div>
+              <div>B.E. Mechanical Engineering</div>
+            </dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Experience ============ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label">02 / Experience</div>
+
+      <ol class="timeline">
+        <li class="timeline-item current">
+          <div class="timeline-head">
+            <span class="timeline-role">Machine Test Engineer&nbsp;2</span>
+            <span class="timeline-dates">JUN 2022 — PRESENT</span>
+          </div>
+          <div class="timeline-org"><span class="org-name">Haas Automation Inc.</span> &middot; Oxnard, CA</div>
+          <ul class="timeline-bullets">
+            <li>Led end-to-end development of CNC test parts &mdash; CAD in Fusion 360 with DFM/DFA, 5-axis machining, and inspection &mdash; to validate machine functionality.</li>
+            <li>Designed and machined a wood-router spacer using GD&amp;T to optimize alignment clearances, cutting installation effort and production time by <strong>12%</strong>.</li>
+            <li>Developed and executed test plans for new CNC features, applying hands-on machining and root-cause analysis to surface software bugs early in development.</li>
+            <li>Automated <strong>200+</strong> regression tests using Python and Haas scripting, accelerating machine validation.</li>
+            <li>Trained and mentored <strong>15 engineers</strong> in CNC machining best practices for testing software fixes and machine motion.</li>
+          </ul>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <span class="timeline-role">Research Assistant</span>
+            <span class="timeline-dates">JAN 2021 — DEC 2021</span>
+          </div>
+          <div class="timeline-org"><span class="org-name">University of California, Riverside</span> &middot; Riverside, CA</div>
+          <ul class="timeline-bullets">
+            <li>Designed components of a torsion-actuator assembly in SolidWorks for a steerable robotic catheter for minimally invasive cardiovascular surgery.</li>
+            <li>3D-printed plastic parts and assembled precision electromechanical components into a working actuator.</li>
+            <li>Conducted motion tests and ran iterative design changes to improve performance.</li>
+          </ul>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <span class="timeline-role">Summer Intern</span>
+            <span class="timeline-dates">FEB 2020 — JUN 2020</span>
+          </div>
+          <div class="timeline-org"><span class="org-name">Hindustan Aeronautics Limited</span> &middot; Karnataka, India</div>
+          <ul class="timeline-bullets">
+            <li>Performed FEA on an aircraft-engine blisk to determine optimal machining parameters, reducing cycle time by <strong>6%</strong>.</li>
+            <li>Machined a prototype blisk on a 5-axis CNC mill and verified surface roughness against the modeled parameters.</li>
+          </ul>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <span class="timeline-role">Student Member — Human Powered Vehicle Challenge</span>
+            <span class="timeline-dates">FEB 2019 — JAN 2020</span>
+          </div>
+          <div class="timeline-org">India</div>
+          <ul class="timeline-bullets">
+            <li>Collaborated with a 22-member team to design and fabricate a human-powered recumbent bicycle; drove the vehicle in endurance and speed competition.</li>
+            <li>Owned the handlebar mechanism design in CATIA&nbsp;V5; analyzed chassis dynamics in ANSYS&nbsp;18.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ Education ============ -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label">03 / Education</div>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div>
+            <div class="edu-degree">M.S. Computer Science</div>
+            <div class="edu-school">Sofia University &middot; Irvine, California</div>
+          </div>
+          <div class="edu-dates">JAN 2025 — PRESENT</div>
+        </div>
+        <div class="edu-card">
+          <div>
+            <div class="edu-degree">M.S. Mechanical Engineering</div>
+            <div class="edu-school">University of California, Riverside</div>
+          </div>
+          <div class="edu-dates">JAN 2021 — DEC 2021</div>
+        </div>
+        <div class="edu-card">
+          <div>
+            <div class="edu-degree">B.E. Mechanical Engineering</div>
+            <div class="edu-school">Visvesvaraya Technological University &middot; Karnataka, India</div>
+          </div>
+          <div class="edu-dates">AUG 2016 — SEP 2020</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Skills ============ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">04 / Skills</div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>CAD / CAE</h3>
+          <div class="skill-list">
+            <span class="skill-chip">SolidWorks</span>
+            <span class="skill-chip">CATIA V5</span>
+            <span class="skill-chip">Fusion 360</span>
+            <span class="skill-chip">Creo</span>
+            <span class="skill-chip">AutoCAD</span>
+            <span class="skill-chip">Siemens NX</span>
+            <span class="skill-chip">ANSYS</span>
+            <span class="skill-chip">FEA</span>
+            <span class="skill-chip">GD&amp;T</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Manufacturing</h3>
+          <div class="skill-list">
+            <span class="skill-chip">CNC Lathe</span>
+            <span class="skill-chip">CNC Mill</span>
+            <span class="skill-chip">5-axis Machining</span>
+            <span class="skill-chip">G &amp; M Codes</span>
+            <span class="skill-chip">3D Printing</span>
+            <span class="skill-chip">Laser Cutting</span>
+            <span class="skill-chip">Welding</span>
+            <span class="skill-chip">Soldering</span>
+            <span class="skill-chip">Sheet Metal</span>
+            <span class="skill-chip">Lean Manufacturing</span>
+            <span class="skill-chip">DFM / DFA</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Software &amp; Test</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">Haas Scripting</span>
+            <span class="skill-chip">Regression Automation</span>
+            <span class="skill-chip">Root-Cause Analysis</span>
+            <span class="skill-chip">Test Planning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Projects ============ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">05 / Projects</div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: DS-30Y Test Cut -->
+        <article class="project-card" data-project="ds30y">
+          <div class="viewer-frame">
+            <span class="viewer-label">MODEL · DS-30Y</span>
+            <div class="viewer-loading">Loading model&hellip;</div>
+            <div class="viewer-error">Could not load model.<br>Try serving the site over HTTP (see README).</div>
+            <div class="viewer-controls">
+              <button class="viewer-btn" data-action="rotate" title="Toggle auto-rotate" aria-label="Toggle auto-rotate">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 8a5.5 5.5 0 1 1-1.4-3.66"/><path d="M13.5 2v3h-3"/></svg>
+              </button>
+              <button class="viewer-btn" data-action="wireframe" title="Toggle wireframe" aria-label="Toggle wireframe">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="12" height="12"/><path d="M2 8h12M8 2v12M2 2l12 12M14 2L2 14"/></svg>
+              </button>
+              <button class="viewer-btn" data-action="reset" title="Reset view" aria-label="Reset view">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3l2-2"/><circle cx="8" cy="8" r="5"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              DS-30Y Test Cut <span class="project-num">P-01</span>
+            </div>
+            <p class="project-desc">
+              Validation part for the Haas DS-30Y &mdash; a dual-spindle lathe with Y-axis turning.
+              Designed to exercise synchronized dual-spindle motion and Y-axis cuts in a single setup.
+            </p>
+            <div class="project-tools">
+              <span class="project-tool">Fusion 360</span>
+              <span class="project-tool">CNC Lathe</span>
+              <span class="project-tool">Y-axis</span>
+              <span class="project-tool">GD&amp;T</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: UMC-750SS Test Cut -->
+        <article class="project-card" data-project="umc750">
+          <div class="viewer-frame">
+            <span class="viewer-label">MODEL · UMC-750SS</span>
+            <div class="viewer-loading">Loading model&hellip;</div>
+            <div class="viewer-error">Could not load model.<br>Try serving the site over HTTP (see README).</div>
+            <div class="viewer-controls">
+              <button class="viewer-btn" data-action="rotate" title="Toggle auto-rotate"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 8a5.5 5.5 0 1 1-1.4-3.66"/><path d="M13.5 2v3h-3"/></svg></button>
+              <button class="viewer-btn" data-action="wireframe" title="Toggle wireframe"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="12" height="12"/><path d="M2 8h12M8 2v12M2 2l12 12M14 2L2 14"/></svg></button>
+              <button class="viewer-btn" data-action="reset" title="Reset view"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3l2-2"/><circle cx="8" cy="8" r="5"/></svg></button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">UMC-750SS Test Cut <span class="project-num">P-02</span></div>
+            <p class="project-desc">
+              Comprehensive 5-axis validation geometry for the Haas UMC-750SS universal
+              machining center. Stress-tests simultaneous 5-axis motion, tool-length
+              compensation, and contour accuracy in a single setup.
+            </p>
+            <div class="project-tools">
+              <span class="project-tool">Fusion 360</span>
+              <span class="project-tool">5-axis Mill</span>
+              <span class="project-tool">GD&amp;T</span>
+              <span class="project-tool">DFM/DFA</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Accelerometer Base -->
+        <article class="project-card" data-project="accel">
+          <div class="viewer-frame">
+            <span class="viewer-label">MODEL · ACCEL BASE</span>
+            <div class="viewer-loading">Loading model&hellip;</div>
+            <div class="viewer-error">Could not load model.<br>Try serving the site over HTTP (see README).</div>
+            <div class="viewer-controls">
+              <button class="viewer-btn" data-action="rotate" title="Toggle auto-rotate"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 8a5.5 5.5 0 1 1-1.4-3.66"/><path d="M13.5 2v3h-3"/></svg></button>
+              <button class="viewer-btn" data-action="wireframe" title="Toggle wireframe"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="12" height="12"/><path d="M2 8h12M8 2v12M2 2l12 12M14 2L2 14"/></svg></button>
+              <button class="viewer-btn" data-action="reset" title="Reset view"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3l2-2"/><circle cx="8" cy="8" r="5"/></svg></button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">Accelerometer Base <span class="project-num">P-03</span></div>
+            <p class="project-desc">
+              Compact mounting fixture for an accelerometer sensor used during machine
+              vibration characterization. Designed with rigid, repeatable seating to keep
+              measurements consistent across test runs.
+            </p>
+            <div class="project-tools">
+              <span class="project-tool">Fusion 360</span>
+              <span class="project-tool">Fixture Design</span>
+              <span class="project-tool">DFM/DFA</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Chess Queen -->
+        <article class="project-card" data-project="queen">
+          <div class="viewer-frame">
+            <span class="viewer-label">MODEL · CHESS QUEEN</span>
+            <div class="viewer-loading">Loading model&hellip;</div>
+            <div class="viewer-error">Could not load model.<br>Try serving the site over HTTP (see README).</div>
+            <div class="viewer-controls">
+              <button class="viewer-btn" data-action="rotate" title="Toggle auto-rotate"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 8a5.5 5.5 0 1 1-1.4-3.66"/><path d="M13.5 2v3h-3"/></svg></button>
+              <button class="viewer-btn" data-action="wireframe" title="Toggle wireframe"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="12" height="12"/><path d="M2 8h12M8 2v12M2 2l12 12M14 2L2 14"/></svg></button>
+              <button class="viewer-btn" data-action="reset" title="Reset view"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3l2-2"/><circle cx="8" cy="8" r="5"/></svg></button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">Chess Queen <span class="project-num">P-04</span></div>
+            <p class="project-desc">
+              A turned chess queen modeled and machined as a showcase piece &mdash; freeform
+              profile turning to exercise surface-finish quality, contouring tools, and the
+              limits of a CNC lathe in ornamental work.
+            </p>
+            <div class="project-tools">
+              <span class="project-tool">Fusion 360</span>
+              <span class="project-tool">CNC Lathe</span>
+              <span class="project-tool">Surface Finish</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: VMT Test Cut -->
+        <article class="project-card" data-project="vmt">
+          <div class="viewer-frame">
+            <span class="viewer-label">MODEL · VMT TEST CUT</span>
+            <div class="viewer-loading">Loading model&hellip;</div>
+            <div class="viewer-error">Could not load model.<br>Try serving the site over HTTP (see README).</div>
+            <div class="viewer-controls">
+              <button class="viewer-btn" data-action="rotate" title="Toggle auto-rotate"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 8a5.5 5.5 0 1 1-1.4-3.66"/><path d="M13.5 2v3h-3"/></svg></button>
+              <button class="viewer-btn" data-action="wireframe" title="Toggle wireframe"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="12" height="12"/><path d="M2 8h12M8 2v12M2 2l12 12M14 2L2 14"/></svg></button>
+              <button class="viewer-btn" data-action="reset" title="Reset view"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3l2-2"/><circle cx="8" cy="8" r="5"/></svg></button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">VMT Mill-Turn Test Cut <span class="project-num">P-05</span></div>
+            <p class="project-desc">
+              Mill-turn validation part for the Haas VMT &mdash; combining turning and live-tool
+              milling on a single machine. Tests transitions between turning and milling cycles
+              in one continuous setup.
+            </p>
+            <div class="project-tools">
+              <span class="project-tool">Fusion 360</span>
+              <span class="project-tool">Mill-Turn</span>
+              <span class="project-tool">Multi-axis</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">06 / Contact</div>
+      <h2 class="section-title">Let's talk shop.</h2>
+      <div class="contact-grid">
+        <div>
+          <p class="contact-lede">
+            Happy to chat about test engineering, CNC, CAD, or the right way to set up a 5-axis fixture.
+          </p>
+          <p class="contact-sub">
+            Based in Oxnard, California &mdash; usually within reach of a Haas mill and a fresh cup of chai.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:shalini98bansal@gmail.com">
+            <span class="label">Email</span>
+            <span class="value">shalini98bansal@gmail.com</span>
+            <span class="arrow">&rarr;</span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/shalinibansal862253874/" target="_blank" rel="noopener">
+            <span class="label">LinkedIn</span>
+            <span class="value">/in/shalinibansal862253874</span>
+            <span class="arrow">&rarr;</span>
+          </a>
+          <a class="contact-link" href="assets/ShaliniBansal_Resume.pdf" download>
+            <span class="label">Resume</span>
+            <span class="value">ShaliniBansal_Resume.pdf</span>
+            <span class="arrow">&darr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="container">
+      &copy; <span id="year"></span> SHALINI BANSAL &middot; BUILT WITH HTML, CSS, THREE.JS
+    </div>
+  </footer>
+
+  <!-- ============ Scripts ============ -->
+  <script type="module">
+    import { initProjectViewers } from './assets/viewer.js';
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    initProjectViewers([
+      { id: 'ds30y', url: 'assets/models/ds30y_test_cut.glb' },
+      { id: 'umc750', url: 'assets/models/umc750ss_test_cut.glb' },
+      { id: 'accel',  url: 'assets/models/accelerometer_base.glb' },
+      { id: 'queen',  url: 'assets/models/chess_queen.glb' },
+      { id: 'vmt',    url: 'assets/models/vmt_test_cut.glb' },
+    ]);
+  </script>
+
+</body>
+</html>
